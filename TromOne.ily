@@ -1,6 +1,6 @@
 TromOne =
 {
-
+\tempo 4=130
 R1*2
 \mark \default %A
 
@@ -47,7 +47,7 @@ d8. d16 c8 a8~ a2 | r8 e' g a r4 e8 c | d c e d~ d4 r8 a | c c c c d d d d | e e
 <f, a c>8 <f a c>4 <f a c>8 <f a c>8 <f a c>4 <f a c>8 | 
 <a c e>8 <a c e>4 <a c e>8 <g b e>8 <g b e>4 <g b e>8 | 
 <f a c>8 <f a c>4 <f a c>8 <f a c>8 <f a c>4 <g b e>8 | 
-<a c e>4-> <g b e>4-> r2
+<a c e>4-> <g b d>4-> r2
 <f a c>8 <f a c>4 <f a c>8 <f a c>8 <f a c>4 <f a c>8 | 
 <a c e>8 <a c e>4 <a c e>8 <g b e>8 <g b e>4 <g b e>8 | 
 <f a c>2 <g b d>2 |  <a c e>2 r2 |
