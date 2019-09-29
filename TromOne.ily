@@ -7,9 +7,9 @@ R1*2
 \repeat volta 2 {R1*4}
 \mark \default %B
 
-\repeat volta 2 {<e a c>\p | <f a c> | <e g c>2.  r4 | <d g b>1 |}
+\repeat volta 2 {<e a c>\p | <f a c> | <e g c>2.  r4 | <d g b>1 | }
 \repeat volta  2 {
-	\repeat unfold 2 {<e a c>8.-.\mp <e a c>8.-.  <e a c>8-.} |
+ <e a c>8.-.\mp <e a c>8.-.  <e a c>8-.  <e a c>8.-. <e a c>8.-.  <e a c>8-.|
 	\repeat unfold 2 {<f a c>8.-.    <f a c>8.-.  <f a c>8-.} |
 	\repeat unfold 2 {<e g c>8.-.    <e g c>8.-.  <e g c>8-.} |
 	}
@@ -53,6 +53,19 @@ d8. d16 c8 a8~ a2 | r8 e' g a r4 e8 c | d c e d~ d4 r8 a | c c c c d d d d | e e
 <f a c>2 <g b d>2 |  <a c e>2 r2 |
 
 R1*3 | e4 f g <d d'> |
+
+\repeat volta 2 {<a' c e>1_\markup {\italic crescendo} | <g b d> | <e g b> | <f a c> |
+				 <a c e>1							   | <g b d> | <e g b> | <f a c> | }
+
+a4\f r4 r4 r8 a8 | g4 r2. | e4 r4 r4 r8 e | f4 r2. | 
+a4 r4 r4 r8 a8 | g4 r2. | e4 r4 r4 r8 b | c c c c c8 r8 r4 |
+
+\mark \default
+f2. r4 | g4 g2 r4 | f2. r4 | g4. g8~ g4 r4 | f2 g | a r | 
+<c c,>4 r4 <c c,>8. <b b,>16~  <b b,>8 <c c,> |
+r2 <c c,>8. <b b,>16~  <b b,>8 <c c,> | r2 <c c,>8. <b b,>16~  <b b,>8 <a a,>~ |  <a a,>2 r | 
+<c c,>4 r4 <c c,>8. <b b,>16~  <b b,>8 <c c,> |
+r2 <c c,>8. <b b,>16~  <b b,>8 <c c,> | r2 <c c,>8. <b b,>16~  <b b,>8 <a a,>~ |  <a a,>2 r | r1 \bar "|."
 
 
 

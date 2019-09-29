@@ -7,11 +7,15 @@
 % ****************************************************************
 
 \paper {
-  #(set-default-paper-size "a4landscape")
+  #(set-default-paper-size "a4" 'landscape)
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 10)
-  bottom-margin =10
+  #(layout-set-staff-size 14)
+  top-margin    =6
+  bottom-margin =6
+  left-margin   =6
+  right-margin  =6
+  
   %annotate-spacing = ##t
   %{ %}
   between-system-padding = 0
@@ -22,7 +26,7 @@
 {
     \header
     {
-      title = "Danza"
+      title = "Danza - Lucky Chops"
     }
   \score
   {
