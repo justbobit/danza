@@ -6,11 +6,14 @@
 % Start cut-&-pastable-section
 % ****************************************************************
 
+#(set! paper-alist (cons '("my size" . (cons (* 29.7 cm) (* 21 cm))) paper-alist))
+
+
 \paper {
-  #(set-default-paper-size "a4" 'landscape)
+  #(set-paper-size "my size")
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 14)
+  #(layout-set-staff-size 19)
   top-margin    =6
   bottom-margin =6
   left-margin   =6
