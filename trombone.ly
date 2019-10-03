@@ -24,10 +24,10 @@
 
 \book 
 {
-    \header
-    {
-      title = "Danza - Lucky Chops"
-    }
+\header {
+  title = "Danza"
+  composer = "Lucky chops - 03/10/19 Bobby"
+}
   \score
   {
     \context StaffGroup {
