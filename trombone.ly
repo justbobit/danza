@@ -37,7 +37,7 @@
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Trombone"
           \set Staff.midiInstrument = #"trombone"
-          \relative c { \compressFullBarRests \override MultiMeasureRest.expand-limit = #2
+          \relative c { \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
             \set Score.markFormatter = #format-mark-box-alphabet
             \clef "bass" \key c \major
           \TromOne}
